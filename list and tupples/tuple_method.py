@@ -1,0 +1,5 @@
+marks=(22,234,22,54656,22,234)
+#marks.index(22)
+#print(marks)
+#marks.count(22)
+print(marks.count(22))

@@ -1,0 +1,21 @@
+list=[]
+x=int(input("enter number 1="))
+list.append(x)
+print(list)
+y=int(input("enter number 2="))
+list.append(y)
+print(list)
+z=int(input("enter number 3="))
+list.append(z)
+print(list)
+a=int(input("enter number 4="))
+list.append(a)
+print(list)
+b=int(input("enter number 5="))
+list.append(b)
+print(list)
+
+
+print(list)
+print("Maximum:",max(list))
+print("Minimun:",min(list)) 

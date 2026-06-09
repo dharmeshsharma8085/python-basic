@@ -1,0 +1,6 @@
+hi my name is Dharmesh
+I am curently in rajathan pilani
+
+ //ager file same folder mai hi hai tho hum direct naam use kar sakte hai 
+
+//but ager wo alag folder mai hai tho hume pura path likh na padhega
