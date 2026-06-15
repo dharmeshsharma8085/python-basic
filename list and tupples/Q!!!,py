@@ -1,0 +1,26 @@
+num1=[1,1,1,2,3,4,4,5,6,7,6,5,5,7,2,43,5,6,8,7,6,5,7,5,3,4,6,7]
+num1.sort()
+num2=[9,8,7,6,5,6,5,3,4,6,4,1,2,3,5,7,7,7,3,5,4,7,5,9,4,2]
+num2.sort()
+n=len(num1)
+m=len(num2)
+result=[]
+i=0
+j=0
+while i<n and j<m:
+    if num1[i]<=num2[j]:
+        if len(result)==0 or result[-1]!=num1[i]:
+            result.append(num1[i])
+    else:
+        if len(result)==0 or result[-1]!=num2[j]:
+            result.append(num2[j])
+            
+while i<n:
+     if len(result)==0 or result[-1]!=num1[i]:
+        result.append(num1[i])
+while j<n:
+    if len(result)==0 or result[-1]!=num2[j]:
+        result.append(num2[j])
+        
+print(result)
+    
